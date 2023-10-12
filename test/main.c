@@ -28,15 +28,16 @@ int main()
     scanf("%f", &fnum);
     printf("you have entered the number : %.2f \n",fnum);
 
+    double dnum;
+    printf("Please enter a double number : ");
+    scanf("%lf", &dnum);
+    printf("You have entered the number : %lf \n",dnum);
+
     char cnum;
     printf("Please enter a character :");
     scanf("%s", &cnum);
-    printf("You have entered the character : %s",cnum);
+    printf("You have entered the character : %c \n",cnum);
 
-    double dnum;
-    printf("Please enter a double number :");
-    scanf("%lf", &dnum);
-    printf("You have entered the number : %lf",dnum);
 
 getch();
 }
