@@ -23,6 +23,21 @@ int main()
     scanf("%d", &num);
     printf("You have entered the number : %d \n",num);
 
-    getch();
+    float fnum;
+    printf("Please enter a float number : ");
+    scanf("%f", &fnum);
+    printf("you have entered the number : %.2f \n",fnum);
+
+    char cnum;
+    printf("Please enter a character :");
+    scanf("%s", &cnum);
+    printf("You have entered the character : %s",cnum);
+
+    double dnum;
+    printf("Please enter a double number :");
+    scanf("%lf", &dnum);
+    printf("You have entered the number : %lf",dnum);
+
+getch();
 }
 
