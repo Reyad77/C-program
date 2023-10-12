@@ -1,8 +1,9 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 
 int main()
 {
-    printf("Hello world!\n");
+    printf("Reyad!\n");
+    printf("Taizhou University");
     return 0;
 }
