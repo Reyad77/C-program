@@ -18,6 +18,11 @@ int main()
     printf("Character is %c \n ",num4);
     printf("Numbers are %d, %d, %.2f, %.3lf, %c \n",num1,num2,num3,num5,num4);
 
+    int num;
+    printf("Please enter an integer value :");
+    scanf("%d", &num);
+    printf("You have entered the number : %d \n",num);
+
     getch();
 }
 
