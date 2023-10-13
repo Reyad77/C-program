@@ -39,6 +39,12 @@ int main()
     printf("You have entered the character : %c \n",cnum);
 
 
+    int num90;              /* defined a variable called num*/
+    num90=1;               /*assigned a value to num*/
+
+    printf("I am simple "); /* use the printf() function*/
+    printf("computer. \n");
+    printf("My favourite number is %d because it is first. \n",num90);
 getch();
 }
 
