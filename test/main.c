@@ -53,10 +53,19 @@ int main()
     double d;
     char c;
 
-    printf("Size of  i = %d bytes \n", sizeof(i));
+    printf("Size of  i = %d bytes \n", sizeof(i)); //use of size of//
     printf("Size of f = %d bytes \n", sizeof(f));
     printf("Size of d= %d bytes \n", sizeof(d));
     printf("Size of c = %d bytes \n", sizeof(c));
+
+
+    int a;
+    printf("Please enter an ASCII value :");
+    scanf("%d", &a);
+    printf("The ASCII character is : %c \n", a);
+
+
+
 
 
 getch();
