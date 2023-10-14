@@ -18,7 +18,7 @@ int main()
     printf("Character is %c \n ",num4);
     printf("Numbers are %d, %d, %.2f, %.3lf, %c \n",num1,num2,num3,num5,num4);
 
-    int num;
+    /*int num;
     printf("Please enter an integer value :");
     scanf("%d", &num);
     printf("You have entered the number : %d \n",num);
@@ -36,7 +36,7 @@ int main()
     char cnum;
     printf("Please enter a character :");
     scanf("%s", &cnum);
-    printf("You have entered the character : %c \n",cnum);
+    printf("You have entered the character : %c \n",cnum);*/
 
 
     int num90;              /* defined a variable called num*/
@@ -44,7 +44,21 @@ int main()
 
     printf("I am simple "); /* use the printf() function*/
     printf("computer. \n");
-    printf("My favourite number is %d because it is first. \n",num90);
+    printf("My favourite number is %d because it is first. \n",num90);   /*integer= %d, float= %f, character= %c, double= %lf*/
+
+    printf("hellow \n");
+
+    int i;
+    float f;
+    double d;
+    char c;
+
+    printf("Size of  i = %d bytes \n", sizeof(i));
+    printf("Size of f = %d bytes \n", sizeof(f));
+    printf("Size of d= %d bytes \n", sizeof(d));
+    printf("Size of c = %d bytes \n", sizeof(c));
+
+
 getch();
 }
 
