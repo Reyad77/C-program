@@ -8,7 +8,9 @@ int main()
     char c= '*'; )
 
    1. warning C4244:'=' : conversion form 'constdouble' to 'int', possible loss of data
-   2. erron C2065:'f' : undeclared identifier.*/
+   2. erron C2065:'f' : undeclared identifier.
+
+   */
      int a;
      float f;
       a=3;
