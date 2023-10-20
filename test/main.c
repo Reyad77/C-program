@@ -60,12 +60,9 @@ int main()
 
 
     int a;
-    printf("Please enter an ASCII value :");
+    printf("Please enter an ASCII value :"); //printing ascii value to character//
     scanf("%d", &a);
     printf("The ASCII character is : %c \n", a);
-
-
-
 
 
 getch();
