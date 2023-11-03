@@ -8,5 +8,4 @@ scanf("%d", &x);
 printf("dec= %d; Octal=%o; hex=%x \n", x, x, x);
 printf("dec=%d; Octal=%#o; hex=%#x \n", x, x, x);
 getch();
-
 }

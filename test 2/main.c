@@ -17,6 +17,8 @@ int main()
       f=1.2378;
       printf("a=%d \n",a);
       printf("f=%.2f \n ", f);
+
+
       getch();
 
 }
