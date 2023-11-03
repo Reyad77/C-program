@@ -16,5 +16,7 @@ scanf("%d", &fathoms1);
 feet1=6*fathoms1;
 
 printf("%d fathoms,\n(6* %d)=%d feets \n", fathoms1, fathoms1, feet1);
+
+
 getch();
 }
