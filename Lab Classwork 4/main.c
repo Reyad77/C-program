@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+int main()   /*The structure of statement 1and statement 2 using if statements as the upper level of if statements is called nesting of if statements*/
 {float x,y;
 scanf("%f",&x);
 if(x<0)
